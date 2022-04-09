@@ -1,0 +1,28 @@
+.body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://cdn-news.clima.com/images/2017/12/01_thumbnail_1_lugar_mas_niebla_mundo-1024x576.jpg);
+    background-position: center;
+    color: black;
+    font-family: 'Courier New', Courier, monospace ;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    min-height: 100vh;
+}
+
+.header{
+    display: flex;
+}
+.header__image-container{
+    display: flex;
+    max-width: 256px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.header_image{
+    width: 100%;
+    
+}
